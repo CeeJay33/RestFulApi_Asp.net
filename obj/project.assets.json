@@ -579,24 +579,27 @@
     ]
   },
   "packageFolders": {
-    "/home/jay/.nuget/packages/": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/jay/2CD0C24AD0C219CA/Users/USER/source/repos/CrudApp/CrudApp/CrudApp.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\CrudApp\\CrudApp\\CrudApp.csproj",
       "projectName": "CrudApp",
-      "projectPath": "/media/jay/2CD0C24AD0C219CA/Users/USER/source/repos/CrudApp/CrudApp/CrudApp.csproj",
-      "packagesPath": "/home/jay/.nuget/packages/",
-      "outputPath": "/media/jay/2CD0C24AD0C219CA/Users/USER/source/repos/CrudApp/CrudApp/obj/",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\CrudApp\\CrudApp\\CrudApp.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\CrudApp\\CrudApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jay/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -609,6 +612,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -643,8 +651,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }
